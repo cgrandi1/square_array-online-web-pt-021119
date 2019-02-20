@@ -1,8 +1,9 @@
-numbers = [1, 2, 3]
+def square_array(numbers)
+  numbers = [1, 2, 3]
   numbers.each do |number|
-    puts math.sqrt#(numbers)
+    puts math.sqrt(#{numbers})
 end
-  square_numbers = [1, 4, 9]
-  square_numbers.each do |number|
-end
-  new_numbers = [9, 10, 16, ]
+  new_numbers = [9, 10, 16, 25]
+  new_numbers.each do |new_number|
+    puts math.sqrt(#{new_numbers})
+  end
